@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "short-uuid": "^4.2.0",
+    "uuid": "^8.3.2"
+  }
+}
