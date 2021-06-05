@@ -19,7 +19,7 @@ const log = (root) => {
   console.log(root);
 
   root.children.forEach(child => {
-    if(child?.children.length) {
+    if(child.children?.length) {
       log(child);
     }
   });
